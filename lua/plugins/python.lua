@@ -15,13 +15,9 @@ return {
       },
 
       -- linting and formatting
+      -- config: project's pyproject.toml / ruff.toml, else AppData\Roaming\ruff\ruff.toml
       ruff = {
         mason = false, -- use the ruff installed on your PC
-        init_options = {
-          settings = {
-            configuration = vim.fn.stdpath("config") .. "/ruff.toml",
-          },
-        },
       },
     },
   },
