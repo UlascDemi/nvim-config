@@ -4,6 +4,6 @@ return {
   { "lunarvim/darkplus.nvim", priority = 1000 },
   {
     "LazyVim/LazyVim",
-    opts = { colorscheme = "onedark" },
+    opts = { colorscheme = "vscode" },
   },
 }
