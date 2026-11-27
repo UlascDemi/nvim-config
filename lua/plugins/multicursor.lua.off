@@ -5,8 +5,10 @@ return {
     vim.g.VM_maps = {
       ["Add Cursor Down"] = "<C-A-Down>",
       ["Add Cursor Up"] = "<C-A-Up>",
-      ["Find Under"] = "<C-n>", -- like VS Code's Ctrl+D: select word, again = next match
+      ["Find Under"] = "<C-n>",
       ["Find Subword Under"] = "<C-n>",
+      ["Select l"] = "", -- give Shift+Right back to Vim (jump a word)
+      ["Select h"] = "", -- give Shift+Left back to Vim
     }
   end,
 }
